@@ -1,0 +1,81 @@
+{
+    "pagination": {
+        "object_count": 1,
+        "page_number": 1,
+        "page_size": 50,
+        "page_count": 1,
+        "has_more_items": false
+    },
+    "events": [
+        {
+            "name": {
+                "text": "My eventbrite event",
+                "html": "My eventbrite event"
+            },
+            "description": {
+                "text": "A cool event for cool people",
+                "html": "A cool event for cool people"
+            },
+            "url": "https://www.eventbrite.com/e/my-eventbrite-event-tickets-427781033587",
+            "start": {
+                "timezone": "Europe/Paris",
+                "local": "2022-11-06T19:00:00",
+                "utc": "2022-11-06T18:00:00Z"
+            },
+            "end": {
+                "timezone": "Europe/Paris",
+                "local": "2022-11-06T22:00:00",
+                "utc": "2022-11-06T21:00:00Z"
+            },
+            "organization_id": "1162557119523",
+            "created": "2022-09-27T09:14:04Z",
+            "changed": "2022-09-27T09:16:39Z",
+            "published": "2022-09-27T09:16:39Z",
+            "capacity": 100,
+            "capacity_is_custom": false,
+            "status": "live",
+            "currency": "USD",
+            "listed": true,
+            "shareable": true,
+            "invite_only": false,
+            "online_event": true,
+            "show_remaining": false,
+            "tx_time_limit": 1200,
+            "hide_start_date": false,
+            "hide_end_date": false,
+            "locale": "en_US",
+            "is_locked": false,
+            "privacy_setting": "unlocked",
+            "is_series": false,
+            "is_series_parent": false,
+            "inventory_type": "limited",
+            "is_reserved_seating": false,
+            "show_pick_a_seat": false,
+            "show_seatmap_thumbnail": false,
+            "show_colors_in_seatmap_thumbnail": false,
+            "source": "coyote",
+            "is_free": false,
+            "version": null,
+            "summary": "A cool event for cool people",
+            "facebook_event_id": null,
+            "logo_id": null,
+            "organizer_id": "54259656353",
+            "venue_id": null,
+            "category_id": "118",
+            "subcategory_id": null,
+            "format_id": "17",
+            "id": "427781033587",
+            "resource_uri": "https://www.eventbriteapi.com/v3/events/427781033587/",
+            "is_externally_ticketed": false,
+            "logo": null,
+            "category": {
+                "resource_uri": "https://www.eventbriteapi.com/v3/categories/118/",
+                "id": "118",
+                "name": "Auto, Boat & Air",
+                "name_localized": "Auto, Boat & Air",
+                "short_name": "Auto, Boat & Air",
+                "short_name_localized": "Auto, Boat & Air"
+            }
+        }
+    ]
+}
