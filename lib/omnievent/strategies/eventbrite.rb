@@ -15,12 +15,12 @@ module OmniEvent
       API_VERSION = "v3"
 
       def raw_events
-        response = perform_request
+        response = perform_request(path: request_path)
         events = response["events"]
         has_more_items = response["pagination"]["has_more_items"]
 
         while has_more_items
-          response = perform_request({ continuation: response["pagination"]["continuation"] })
+          response = perform_request(path: request_path, continuation: response["pagination"]["continuation"])
           events << response["events"]
           has_more_items = response["pagination"]["has_more_items"]
         end
